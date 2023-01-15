@@ -11,3 +11,11 @@ throughout the body, including the retina. Diabetic retinopathy occurs when thes
 The goal here is to scale the doctors’ efforts through technology; to gain the ability to automatically screen images for disease and provide information on how severe the condition may be. We shall be achieving this by building a Convolutional neural network model that can automatically look at a patient's eye image and estimate the
 severity of blindness in the patient. This process of automation can reduce a lot of time thereby screening the process of treating diabetic retinopathy at a large scale.
 
+<h5>Steps</h5>
+
+1. Load and Transform data
+2. Load the Images with a generator
+3. Build a 8 layer CNN model
+4. Train the model MobileNetV2
+5. Visualize the result
+6. Class activation heatmap for image classification
